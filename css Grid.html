@@ -1,0 +1,47 @@
+<style>
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
+    .header {background: black; color: white;}
+    .logo {background: white; color:black;}
+  
+  .container {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    
+    
+    /* This is how you make your CSS style to grid */
+      
+    display:grid;
+      
+    /* the template for the grid is changed to the columns being 100pixels */
+    
+    grid-template-columns: 1fr 100px 100px;
+      
+      
+    
+  }
+    .header
+    {
+        height: 40px;
+        text-align: center;
+    }
+    
+    .logo
+    {
+        height: 70px;
+    }
+</style>
+  
+<div class ="header">Header</div>
+<div class = "logo">Example of a Logo</div>
+<div class="container">
+  <div class="d1">1</div>
+  <div class="d2">2</div>
+  <div class="d3">3</div>
+  <div class="d4">4</div>
+  <div class="d5">5</div>
+</div>
